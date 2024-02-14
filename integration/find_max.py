@@ -1,9 +1,12 @@
 import mxValue
 
 
-def test_c_swap():
-	x = 5
-	y = 10
-	result = swap.swap_no(x, y)
-
-	assert result == 15, "Value of x is not correctly swapped"
+def test_c_max():
+	x = 2
+	y = 5
+	z = 8
+	# Expected output
+	expected_output = 8
+	# Check if the function returns the correct output
+	assert maximum(x, y, z) == expected_output, "Output doesn't match the expected value"
+	
