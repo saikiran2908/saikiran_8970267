@@ -1,2 +1,5 @@
 def swap_no(x, y):
-	return x+y
+	temp = x
+	x = y
+	y = temp
+	return y
